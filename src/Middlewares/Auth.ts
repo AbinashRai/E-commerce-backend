@@ -15,5 +15,3 @@ export const adminOnly = TryCatch(async (req, res, next) => {
 
   next();
 });
-
-// this is
